@@ -1,0 +1,34 @@
+.card:active{
+    border-left-width: 3px;
+    border-left-color: darkslateblue;
+}
+
+.card{
+    width: 500px;
+    margin-left: 10px;
+    border-bottom-width:0;
+}
+
+.btn{
+    background-color: whitesmoke;
+    border-radius: 1000px;
+    margin-left:130px;
+}
+
+.btn:hover{
+    background-color: rgb(225, 221, 252);
+}
+
+.attributes{
+    font-size: 25px;
+    color: gray;
+}
+
+.card-text{
+    font-size: 25px;
+    margin-bottom:0;
+}
+
+.card-title{
+    margin-bottom:20px;
+}

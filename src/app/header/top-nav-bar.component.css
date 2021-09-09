@@ -1,0 +1,45 @@
+.navbar {
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: lightgray;
+    padding-bottom:0% ;
+    padding-top:0%;
+}
+
+.btn-secondary{
+    background-color: white;
+    border-color:white;
+}
+
+.profile-menu{
+    margin-right: 50px;
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
+.dropdown-menu{
+    left:auto;
+    right:0;
+}
+
+.navbar-brand{
+    margin-left: 50px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-item{
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
+.nav-item-selected{
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: black;
+    padding-bottom:20px;
+    padding-top:20px;
+}

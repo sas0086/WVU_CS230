@@ -1,79 +1,83 @@
-<nav class="navbar bg-light">
-    <ul class="nav">
-        <li class="nav-item"><a class="navbar-brand" href="#">
-            <img src="/assets/Handshake-logo.svg" alt="" width="30" height="30">
-        </a></li>
-        <li class="nav-item"><a class="nav-link text-black" href="#">
-            Jobs
-        </a></li>
-        <li class="nav-item"><a class="nav-link text-black" href="#">
-            Events
-        </a></li>
-        <li class="nav-item"><a class="nav-link text-black" href="#">
-            Employers
-        </a></li>
-    </ul>
+<!DOCTYPE html>
+<html>
 
-    <ul class="nav">
-        <li class="nav-item"><a class="nav-link text-black" href="#">
-            Messages
-        </a></li>
-        <li class="nav-item"><a class="nav-link text-black" href="#">
-            Career Center
-        </a></li>
+<head>
+    <link rel="stylesheet" href="top-nav-bar.component.css">
+</head>
 
-    <div class="dropdown">
-        <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown">
-            <img src="/assets/Profile-pic.svg" class="rounded-circle" alt="" width="30" height="30">
-        </button>
-        <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">
-                My Profile
-            </a></li>
-            <li><a class="dropdown-item" href="#">
-                My Jobs
-            </a></li>
-            <li><a class="dropdown-item" href="#">
-                My Interviews
-            </a></li>
-            <li><a class="dropdown-item" href="#">
-                My Documents
-            </a></li>
-            <li><a class="dropdown-item" href="#">
-                My Career Interests
-            </a></li>
-            <li><a class="dropdown-item" href="#">
-                My Reviews
-            </a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">
-                Notifications
-            </a></li>
-            <li><a class="dropdown-item" href="#">
-                Settings
-            </a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">
-                Help
-            </a></li>
-            <li><a class="dropdown-item" href="#">
-                Terms of Service
-            </a></li>
-            <li><a class="dropdown-item" href="#">
-                Log out
-            </a></li>
+<body>
+    <nav class="navbar">
+        <ul class="nav">
+            <li class="nav-item"><a class="navbar-brand" href="#">
+                    <img src="/assets/Handshake-logo_1.svg" alt="" width="40" height="40">
+                </a></li>
+            <li class="nav-item-selected"><a class="nav-link" href="#">
+                    Jobs
+                </a></li>
+            <li class="nav-item"><a class="nav-link" href="#">
+                    Events
+                </a></li>
+            <li class="nav-item"><a class="nav-link" href="#">
+                    Employers
+                </a></li>
         </ul>
-    </div>
-    </ul>
-</nav>
 
-<nav class="navbar bg-light">
-    <ul class="nav">
-        <li class="nav-item"><a class="nav-link text-black" href="#">
-            Jobs
-        </a></li>
-        <li class="nav-item"><a class="nav-link text-black" href="#">
-            Saved
-        </a></li>
-    </ul>
-</nav>
+        <ul class="nav">
+            <li class="nav-item"><a class="nav-link" href="#">
+                    Messages
+                </a></li>
+            <li class="nav-item"><a class="nav-link" href="#">
+                    Career Center
+                </a></li>
+
+            <div class="dropdown profile-menu">
+                <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown">
+                    <img src="/assets/person-circle-icon.svg" alt="" width="25" height="25">
+                </button>
+                <div class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">
+                            My Profile
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">
+                            My Jobs
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">
+                            My Interviews
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">
+                            My Documents
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">
+                            My Career Interests
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">
+                            My Reviews
+                        </a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">
+                            Notifications
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">
+                            Settings
+                        </a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">
+                            Help
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">
+                            Terms of Service
+                        </a></li>
+                    <li><a class="dropdown-item" href="#">
+                            Log out
+                        </a></li>
+                </div>
+            </div>
+        </ul>
+    </nav>
+</body>
+
+</html>

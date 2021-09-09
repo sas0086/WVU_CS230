@@ -36,6 +36,17 @@
     padding-top:20px;
 }
 
+.nav-item-logo{
+    padding-bottom:20px;
+    padding-top:20px;
+}
+
+.nav-item:hover{
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: gray;
+}
+
 .nav-item-selected{
     border-bottom-style: solid;
     border-bottom-width: 3px;

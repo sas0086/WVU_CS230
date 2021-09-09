@@ -16,3 +16,9 @@
     border-bottom-width: 3px;
     border-bottom-color: black;
 }
+
+.nav-item:hover{
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    border-bottom-color: gray;
+}

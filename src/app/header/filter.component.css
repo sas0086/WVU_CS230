@@ -11,8 +11,36 @@
     color: black;
 }
 
-.nav-item-selected{
-    border-bottom-style: solid;
-    border-bottom-width: 3px;
-    border-bottom-color: black;
+.nav-link:hover{
+    color: darkslateblue;
+}
+
+.nav-item:hover{
+    border-color:darkslateblue;
+    background-color: whitesmoke;
+}
+
+.search-bar:active{
+    border-color:darkslateblue;
+    border-width: 3px;
+}
+
+.nav-item{
+    border-width:1px;
+    border-color:lightgray;
+    border-style:solid;
+    border-radius: 50px;
+    margin:10px;
+    margin-bottom:10px;
+    
+}
+
+.search-bar{
+    border-width:1px;
+    border-color:lightgray;
+    border-style:solid;
+    border-radius: 50px;
+    margin:10px;
+    margin-bottom:10px;
+    background-color: whitesmoke;
 }

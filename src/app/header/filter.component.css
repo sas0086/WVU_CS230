@@ -23,6 +23,7 @@
 .search-bar:active{
     border-color:darkslateblue;
     border-width: 3px;
+    border-style:solid;
 }
 
 .nav-item{
@@ -31,16 +32,15 @@
     border-style:solid;
     border-radius: 50px;
     margin:10px;
-    margin-bottom:10px;
+    margin-bottom:15px;
+    padding-top:5px;
     
 }
 
 .search-bar{
-    border-width:1px;
-    border-color:lightgray;
-    border-style:solid;
     border-radius: 50px;
     margin:10px;
-    margin-bottom:10px;
+    margin-bottom:15px;
+    padding:10px;
     background-color: whitesmoke;
 }

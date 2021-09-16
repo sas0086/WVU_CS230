@@ -6,5 +6,6 @@ import { Component } from "@angular/core";
     styleUrls: ['./card-1.component.css']
 })
 export class Card1Component{
-
+    Image_dot: string = "/assets/dot-icon.svg"
+    Image_bookmark: string = "/assets/bookmark-icon.svg"
 }

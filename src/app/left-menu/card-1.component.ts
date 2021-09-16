@@ -8,4 +8,5 @@ import { Component } from "@angular/core";
 export class Card1Component{
     Image_dot: string = "/assets/dot-icon.svg"
     Image_bookmark: string = "/assets/bookmark-icon.svg"
+    Location: string = "Arlington County, VA"
 }

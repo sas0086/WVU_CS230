@@ -3,12 +3,6 @@
     border-left-color: darkslateblue;
 }
 
-.card{
-    width: 500px;
-    margin-left: 10px;
-    border-bottom-width:0;
-}
-
 .btn{
     background-color: whitesmoke;
     border-radius: 1000px;
@@ -20,15 +14,16 @@
 }
 
 .attributes{
-    font-size: 25px;
+    font-size: 18px;
     color: gray;
 }
 
 .card-text{
-    font-size: 25px;
+    font-size: 18px;
     margin-bottom:0;
 }
 
 .card-title{
+    font-size: 28px;
     margin-bottom:20px;
 }

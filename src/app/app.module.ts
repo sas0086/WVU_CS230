@@ -6,6 +6,7 @@ import { TopNavBarComponent } from './header/top-nav-bar.component';
 import { TopNavBar2Component } from './header/top-nav-bar-2.component'
 import { FilterComponent } from './header/filter.component';
 import { Card1Component } from './left-menu/card-1.component';
+import { OverallLayoutComponent } from './layout/overall-layout.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { Card1Component } from './left-menu/card-1.component';
     TopNavBarComponent,
     TopNavBar2Component,
     FilterComponent,
-    Card1Component
+    Card1Component,
+    OverallLayoutComponent
   ],
   imports: [
     BrowserModule

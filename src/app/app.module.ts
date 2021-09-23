@@ -12,6 +12,7 @@ import { EventsPageComponent } from './web-page/events-page.component';
 import { HomePageComponent } from './web-page/home-page.component';
 import { MessagesPageComponent } from './web-page/messages-page.component';
 import { AppRoutingModule } from './app-routing.module';
+import { CareerCenterPageComponent } from './web-page/career-center-page.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AppRoutingModule } from './app-routing.module';
     EmployersPageComponent,
     EventsPageComponent,
     HomePageComponent,
-    MessagesPageComponent
+    MessagesPageComponent,
+    CareerCenterPageComponent
   ],
   imports: [
     BrowserModule,

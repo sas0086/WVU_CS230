@@ -11,6 +11,7 @@ import { EmployersPageComponent } from './web-page/employers-page.component';
 import { EventsPageComponent } from './web-page/events-page.component';
 import { HomePageComponent } from './web-page/home-page.component';
 import { MessagesPageComponent } from './web-page/messages-page.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { MessagesPageComponent } from './web-page/messages-page.component';
     MessagesPageComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -13,7 +13,15 @@ export class CardComponent{
     @Input()
     description1!:string;
     @Input()
+    description2!:string;
+    @Input()
+    description3!:string;
+    @Input()
     title!:string;
     @Input()
     company!:string;
+    @Input()
+    remote!:string;
+    @Input()
+    location!:string;
 }

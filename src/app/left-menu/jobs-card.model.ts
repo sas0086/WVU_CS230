@@ -1,12 +1,12 @@
 export class JobsCard{
-    description:string;
+    description1:string;
     title:string;
-    location:string;
+    company:string;
 
-    constructor({description, title, location} :
-        {description:string, title:string, location:string}){
-            this.description=description;
+    constructor({description1, title, company} :
+        {description1:string, title:string, company:string}){
+            this.description1=description1;
             this.title=title;
-            this.location=location;
+            this.company=company;
     }
 }

@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { TopNavBarComponent } from './header/top-nav-bar.component';
 import { TopNavBar2Component } from './header/top-nav-bar-2.component'
 import { FilterComponent } from './header/filter.component';
-import { Card1Component } from './left-menu/card-1.component';
+import { CardComponent } from './left-menu/card.component';
 import { OverallLayoutComponent } from './layout/overall-layout.component';
 import { EmployersPageComponent } from './web-page/employers-page.component';
 import { EventsPageComponent } from './web-page/events-page.component';
@@ -20,7 +20,7 @@ import { CareerCenterPageComponent } from './web-page/career-center-page.compone
     TopNavBarComponent,
     TopNavBar2Component,
     FilterComponent,
-    Card1Component,
+    CardComponent,
     OverallLayoutComponent,
     EmployersPageComponent,
     EventsPageComponent,

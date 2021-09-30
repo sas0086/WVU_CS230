@@ -15,7 +15,9 @@
         </div>
         <div class="row">
             <div class="col-3">
-                <app-card-1></app-card-1>
+                <div class="row" *ngFor="let jobs_card of jobs_cards;">
+                    <app-card description1={{jobs_card.description1}} title={{jobs_card.title}} company={{jobs_card.company}}></app-card>
+                </div>
             </div>
             <div class="col">
                 

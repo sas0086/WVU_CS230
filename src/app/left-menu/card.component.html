@@ -4,19 +4,25 @@
 <body>
     <div class="card">
         <div class="card-body">
-            <p class="attributes">
-                {{description}}
-            </p>
-            <h1 class="card-title">
-                {{title}}
-                <button type="button" class="btn">
-                    <img src={{Image_bookmark}} alt="" width="40" height="40">
-                </button>
-            </h1>
-            <p class="card-text">{{company}}</p>
-            <p class="card-text">
-                {{location}}
-            </p>
+            <div class="row">
+                <div class="col-9">
+                    <p class="attributes">
+                        {{description}}
+                    </p>
+                    <h1 class="card-title">
+                        {{title}}
+                    </h1>
+                    <p class="card-text">{{company}}</p>
+                    <p class="card-text">
+                        {{location}}
+                    </p>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn mt-5">
+                        <img src={{Image_bookmark}} alt="" width="40" height="40">
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 </body>

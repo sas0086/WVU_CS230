@@ -11,17 +11,11 @@ export class CardComponent{
     Location: string = "Arlington County, VA"
 
     @Input()
-    description1!:string;
-    @Input()
-    description2!:string;
-    @Input()
-    description3!:string;
+    description!:string;
     @Input()
     title!:string;
     @Input()
     company!:string;
-    @Input()
-    remote!:string;
     @Input()
     location!:string;
 }

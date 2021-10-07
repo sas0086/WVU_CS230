@@ -13,6 +13,8 @@ import { HomePageComponent } from './web-page/home-page.component';
 import { MessagesPageComponent } from './web-page/messages-page.component';
 import { AppRoutingModule } from './app-routing.module';
 import { CareerCenterPageComponent } from './web-page/career-center-page.component';
+import { HttpClientModule } from '@angular/common/http';
+import { UserInfoComponent } from './header/user-info.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +28,13 @@ import { CareerCenterPageComponent } from './web-page/career-center-page.compone
     EventsPageComponent,
     HomePageComponent,
     MessagesPageComponent,
-    CareerCenterPageComponent
+    CareerCenterPageComponent,
+    UserInfoComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

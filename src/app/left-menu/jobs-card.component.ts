@@ -1,11 +1,11 @@
 import { Component, Input } from "@angular/core";
 
 @Component({
-    selector: 'app-card',
-    templateUrl: 'card.component.html',
-    styleUrls: ['./card.component.css']
+    selector: 'app-jobs-card',
+    templateUrl: 'jobs-card.component.html',
+    styleUrls: ['./jobs-card.component.css']
 })
-export class CardComponent{
+export class JobsCardComponent{
     Image_dot: string = "/assets/dot-icon.svg"
     Image_bookmark: string = "/assets/bookmark-icon.svg"
     Location: string = "Arlington County, VA"

@@ -1,3 +1,4 @@
+//remove all
 export const mock_jobs_cards = [
     {
         description: "Part-time • Internship • Unpaid",

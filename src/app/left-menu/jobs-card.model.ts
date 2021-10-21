@@ -1,4 +1,4 @@
-export class JobsCard{
+export class JobsCardInfo{
     description:string;
     title:string;
     company:string;

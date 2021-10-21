@@ -16,11 +16,33 @@
         <div class="row">
             <div class="col-3">
                 <div class="row" *ngFor="let jobs_card of jobs_cards;">
-                    <app-jobs-card description={{jobs_card.description}} title={{jobs_card.title}} company={{jobs_card.company}} location={{jobs_card.location}}></app-jobs-card>
+                    <app-jobs-card description={{jobs_card.description}} title={{jobs_card.title}}
+                        company={{jobs_card.company}} location={{jobs_card.location}}></app-jobs-card>
                 </div>
             </div>
             <div class="col">
-                
+
+            </div>
+        </div>
+    </div>
+
+    <!-- testing whether info will show -->
+    <p *ngIf="jobsCardInfo == undefined">Failed fetching user info</p>
+    <div *ngIf="jobsCardInfo != undefined">
+        <div class="container-fluid">
+            <div class="d-flex flex-row justify-content-between">
+                <div class="flex-column">
+                    {{jobsCardInfo.description}}
+                </div>
+                <div class="flex-column">
+                    {{jobsCardInfo.title}}
+                </div>
+                <div class="flex-column">
+                    {{jobsCardInfo.company}}
+                </div>
+                <div class="flex-column">
+                    {{jobsCardInfo.location}}
+                </div>
             </div>
         </div>
     </div>

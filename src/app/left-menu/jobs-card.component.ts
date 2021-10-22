@@ -17,5 +17,5 @@ export class JobsCardComponent{
     @Input()
     company!:string;
     @Input()
-    location!:string;
+    location!:string; 
 }

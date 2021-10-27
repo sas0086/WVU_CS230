@@ -17,6 +17,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './header/user-info.component';
 import { MyProfilePageComponent } from './web-page/my-profile-page.component';
 import { MyProfileCardComponent } from './cards/my-profile-card.component';
+import { EditUserInfoComponent } from './header/edit-user-info.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -33,12 +35,14 @@ import { MyProfileCardComponent } from './cards/my-profile-card.component';
     CareerCenterPageComponent,
     MyProfilePageComponent,
     MyProfileCardComponent,
-    UserInfoComponent
+    UserInfoComponent,
+    EditUserInfoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

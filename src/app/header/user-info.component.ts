@@ -3,7 +3,7 @@ import { UserInfo } from "./user-info.model";
 import { UserInfoService } from "./user-info.service";
 
 @Component({
-    selector:"handshake-user-info",
+    selector:"app-user-info",
     templateUrl:"user-info.component.html"
 })
 export class UserInfoComponent implements OnInit{

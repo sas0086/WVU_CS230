@@ -6,6 +6,7 @@ import { EmployersPageComponent } from './web-page/employers-page.component';
 import { EventsPageComponent } from './web-page/events-page.component';
 import { HomePageComponent } from './web-page/home-page.component';
 import { MessagesPageComponent } from './web-page/messages-page.component';
+import { MyProfilePageComponent } from './web-page/my-profile-page.component';
 
 const routes: Routes = [
   { path: 'home', component: HomePageComponent },
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'messages', component: MessagesPageComponent },
   { path: 'jobs', component: OverallLayoutComponent },
   { path: 'career-center', component: CareerCenterPageComponent },
+  { path: 'my-profile', component: MyProfilePageComponent },
   { path: '', redirectTo: '/jobs', pathMatch: 'full' }
 ];
 

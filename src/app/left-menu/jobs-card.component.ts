@@ -6,8 +6,6 @@ import { Component, Input } from "@angular/core";
     styleUrls: ['./jobs-card.component.css']
 })
 export class JobsCardComponent{
-    Image_dot: string = "/assets/dot-icon.svg"
-    Image_bookmark: string = "/assets/bookmark-icon.svg"
     Location: string = "Arlington County, VA"
 
     @Input()

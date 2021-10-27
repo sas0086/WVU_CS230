@@ -15,6 +15,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { CareerCenterPageComponent } from './web-page/career-center-page.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './header/user-info.component';
+import { MyProfilePageComponent } from './web-page/my-profile-page.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { UserInfoComponent } from './header/user-info.component';
     HomePageComponent,
     MessagesPageComponent,
     CareerCenterPageComponent,
+    MyProfilePageComponent,
     UserInfoComponent
   ],
   imports: [

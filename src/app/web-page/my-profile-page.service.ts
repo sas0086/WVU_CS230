@@ -14,7 +14,7 @@ export class MyProfilePageService{
         return this.http.get<MyProfileCardInfo>(this.baseUrl + this.myProfileCardInfoEndpoint);
     }
 
-    // modifyMyProfileCardInfo(data:MyProfileCardInfo){
-    //     return this.http.put<MyProfileCardInfo>(this.baseUrl + this.myProfileCardInfoEndpoint, data);
-    // }
+    modifyMyProfileCardInfo(data:MyProfileCardInfo){
+        return this.http.put<MyProfileCardInfo>(this.baseUrl + this.myProfileCardInfoEndpoint, data);
+    }
 }

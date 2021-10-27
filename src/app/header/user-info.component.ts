@@ -1,4 +1,4 @@
-import { Component, Injectable, OnInit } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { UserInfo } from "./user-info.model";
 import { UserInfoService } from "./user-info.service";
 

@@ -1,6 +1,6 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { JobsCardInfo } from "../left-menu/jobs-card.model";
+import { JobsCardInfo } from "../cards/jobs-card.model";
 
 @Injectable({providedIn: 'root'})
 export class OverallLayoutService{

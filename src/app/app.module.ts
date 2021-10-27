@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { TopNavBarComponent } from './header/top-nav-bar.component';
 import { TopNavBar2Component } from './header/top-nav-bar-2.component'
 import { FilterComponent } from './header/filter.component';
-import { JobsCardComponent } from './left-menu/jobs-card.component';
+import { JobsCardComponent } from './cards/jobs-card.component';
 import { OverallLayoutComponent } from './layout/overall-layout.component';
 import { EmployersPageComponent } from './web-page/employers-page.component';
 import { EventsPageComponent } from './web-page/events-page.component';
@@ -16,6 +16,7 @@ import { CareerCenterPageComponent } from './web-page/career-center-page.compone
 import { HttpClientModule } from '@angular/common/http';
 import { UserInfoComponent } from './header/user-info.component';
 import { MyProfilePageComponent } from './web-page/my-profile-page.component';
+import { MyProfileCardComponent } from './cards/my-profile-card.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { MyProfilePageComponent } from './web-page/my-profile-page.component';
     MessagesPageComponent,
     CareerCenterPageComponent,
     MyProfilePageComponent,
+    MyProfileCardComponent,
     UserInfoComponent
   ],
   imports: [

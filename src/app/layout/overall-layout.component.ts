@@ -1,5 +1,5 @@
 import { Component, OnInit } from "@angular/core";
-import { JobsCardInfo } from "../left-menu/jobs-card.model";
+import { JobsCardInfo } from "../cards/jobs-card.model";
 import { OverallLayoutService } from "./overall-layout.service";
 
 @Component({

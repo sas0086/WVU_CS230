@@ -5,3 +5,13 @@
 .sub-text{
     color:gray;
 }
+
+.btn-secondary{
+    background-color: white;
+    border-color:white;
+}
+
+.dropdown-menu{
+    left:auto;
+    right:0;
+}

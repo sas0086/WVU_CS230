@@ -7,16 +7,18 @@ import { MyProfileCardInfo } from "../cards/my-profile-card.model";
     providedIn: 'root'
 })
 export class DataBaseService {
-    items: Observable<MyProfileCardInfo | null>
+    items: Observable<MyProfileCardInfo []>
     constructor(private db:AngularFireDatabase) {
         console.log("Setting up firebase communication");
-        this.items = this.db.object<MyProfileCardInfo>('my-profile-card-info').valueChanges();
+        this.items = this.db.list<MyProfileCardInfo>('my-profile-card-info').valueChanges();
     }
 
     public showData() {
-        this.items.subscribe((data: MyProfileCardInfo | null) => {
+        this.items.subscribe((data: MyProfileCardInfo []) => {
             console.log("Data received");
-            console.log(data);
+            for (let item of data) {
+                console.log(item);
+            }
         })
     }
 }

@@ -1,4 +1,5 @@
 import { Component, Input } from "@angular/core";
+import { DataBaseService } from "../header/database.service";
 import { MyProfilePageService } from "../web-page/my-profile-page.service";
 import { MyProfileCardInfo } from "./my-profile-card.model";
 
@@ -8,8 +9,8 @@ import { MyProfileCardInfo } from "./my-profile-card.model";
     styleUrls: ['./my-profile-card.component.css']
 })
 export class MyProfileCardComponent {
-    constructor(private myProfilePageService: MyProfilePageService) {
-
+    constructor(private myProfilePageService: MyProfilePageService, private dbService: DataBaseService) {
+        dbService.showData();
     }
 
     onUpdateMyProfileCardInfo(data: MyProfileCardInfo) {

@@ -101,6 +101,16 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "prerender": false,
+            "ssr": false,
+            "browserTarget": "handshake:build:production",
+            "firebaseProject": "handshake-app-49bb0",
+            "firebaseHostingSite": "handshake-app-49bb0"
+          }
         }
       }
     }

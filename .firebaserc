@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "handshake-app-49bb0": {
+      "hosting": {
+        "handshake": [
+          "handshake-app-49bb0"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "handshake-app-49bb0"
+  }
+}

@@ -19,6 +19,9 @@ import { MyProfilePageComponent } from './web-page/my-profile-page.component';
 import { MyProfileCardComponent } from './cards/my-profile-card.component';
 import { EditUserInfoComponent } from './header/edit-user-info.component';
 import { FormsModule } from '@angular/forms';
+import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
+import { environment } from '../environments/environment';
+import { provideDatabase,getDatabase } from '@angular/fire/database';
 
 @NgModule({
   declarations: [
@@ -42,7 +45,9 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    provideFirebaseApp(() => initializeApp(environment.firebase)),
+    provideDatabase(() => getDatabase())
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { OverallLayoutComponent } from './layout/overall-layout.component';
+import { AuthComponent } from './web-page/auth.component';
 import { CareerCenterPageComponent } from './web-page/career-center-page.component';
 import { EmployersPageComponent } from './web-page/employers-page.component';
 import { EventsPageComponent } from './web-page/events-page.component';
@@ -16,7 +17,8 @@ const routes: Routes = [
   { path: 'jobs', component: OverallLayoutComponent },
   { path: 'career-center', component: CareerCenterPageComponent },
   { path: 'my-profile', component: MyProfilePageComponent },
-  { path: '', redirectTo: '/jobs', pathMatch: 'full' }
+  { path: '', redirectTo: '/jobs', pathMatch: 'full' },
+  { path: 'auth', component: AuthComponent},
 ];
 
 @NgModule({

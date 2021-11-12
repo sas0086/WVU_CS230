@@ -1,0 +1,61 @@
+<body>
+    <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col-3">
+            </div>
+
+            <div class="col-6">
+                <div class="row">
+                    <div class="col-7">
+                        <div class="row">
+                            <img src="https://pbs.twimg.com/media/Eg1ZLJoX0AEW-kF.jpg" alt="" height="450">
+                        </div>
+                    </div>
+
+                    <div class="col-5" style="text-align: center;">
+                        <img src="https://sso.wvu.edu/cas/themes/wvu/images/wvu_flying_wv.png" alt="" width="60"
+                            height="60">
+                        <div class="row-CAS m-3">
+                            <p>Central Authentication Service</p>
+                        </div>
+                        <div class="row-RAS m-3">
+                            <p>Requesting access for service: Handshake</p>
+                        </div>
+                        <div class="row">
+                            <form #authForm="ngForm" (ngSubmit)="onSubmit(authForm)">
+
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Email" ngModel name="email"
+                                        required email>
+                                </div>
+
+                                <div class="input-group mb-3">
+                                    <input type="password" class="form-control" placeholder="Password" ngModel
+                                        name="password" required password minlength="8">
+                                </div>
+
+                                <div class="row">
+                                    <button class="btn btn-primary m-1" type="submit" [disabled]="!authForm.valid"
+                                        (click)="buttonClicked='Login'">
+                                        LOGIN
+                                    </button>
+                                </div>
+
+                                <div class="row">
+                                    <button class="btn btn-primary m-1" type="submit" [disabled]="!authForm.valid"
+                                        (click)="buttonClicked='SignUp'">
+                                        SIGN UP
+                                    </button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-3">
+            </div>
+        </div>
+    </div>
+</body>
